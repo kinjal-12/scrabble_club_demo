@@ -10,6 +10,16 @@
   </head>
 
   <body>
+
+    <%= nav_bar brand: "ScrabbleClub", brand_link: root_path do %>
+        <%= menu_group do %>
+        <%= menu_item "Leader Board", root_path %>
+        <%= menu_item "Members", members_path %>
+        <%= menu_item "Games", games_path %>
+        <% end %>
+    <% end %>
+
     <%= yield %>
+
   </body>
 </html>

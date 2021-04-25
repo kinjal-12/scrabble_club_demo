@@ -1,0 +1,21 @@
+<div class="page-header">
+  <h3>LeaderBoard</h3>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>No. Of Games</th>
+      <th>Average Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @members.each do |member| %>
+      <tr>
+        <td><%= member.full_name %></td>
+        <td><%= member.players.count %></td>
+        <td><%= member.players.average(:score).round %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
