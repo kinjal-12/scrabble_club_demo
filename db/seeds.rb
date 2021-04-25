@@ -1,7 +1,7 @@
 Game.create!([
   {game_name: "Chess", description: "", start_date: "2021-04-25", end_date: "2021-04-26"},
   {game_name: "Carrom", description: "This game is having 2 hours of time", start_date: "2021-04-25", end_date: "2021-04-26"},
-  {game_name: "Game2", description: "", start_date: "2021-05-21", end_date: "2021-05-21"},
+  {game_name: "Game2", description: "", start_date: "1970-05-21", end_date: "1981-01-22"},
   {game_name: "Game4", description: "", start_date: "2021-04-08", end_date: "2021-04-08"},
   {game_name: "GAME3", description: "", start_date: "2021-04-30", end_date: "2021-04-30"},
   {game_name: "Gam8", description: "", start_date: "2021-04-13", end_date: "2021-04-13"},
@@ -23,7 +23,7 @@ Game.create!([
   {game_name: "Game22", description: "", start_date: "2021-04-05", end_date: "2021-04-05"},
   {game_name: "Game31", description: "", start_date: "2021-04-12", end_date: "2021-04-12"},
   {game_name: "Game24", description: "", start_date: "2021-04-02", end_date: "2021-04-02"},
-  {game_name: "Game32", description: "", start_date: "2021-03-12", end_date: "2021-03-12"}
+  {game_name: "Game32", description: "", start_date: "2021-03-12", end_date: "32021-03-12"}
 ])
 Member.create!([
   {full_name: "Kinjal Chotaliya", contact_number: "9034932422", email: "kinjal@yopmail.com"},
